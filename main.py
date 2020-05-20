@@ -42,6 +42,7 @@ for inn_ in inn:
 
         print('{}: {}'.format(inn_, company_name))
 
+
 print('{} secs elapsed!'.format(time.time() - start_time))
 
 with open('output_data.json', 'w', encoding='utf-8') as file:
